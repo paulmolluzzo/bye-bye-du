@@ -3,8 +3,8 @@
 
   "name": "Bye Baidu",
   "short_name": "Bye Baidu",
-  "description": "This extension removes any script that has a src with baidu in the name or content.",
-  "version": "0.1",
+  "description": "Remove Baidu tracking and social network scripts.",
+  "version": "0.2.0",
 
   "permissions": [
       "activeTab"

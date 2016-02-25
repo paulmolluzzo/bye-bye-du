@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
       parent.removeChild(current);
     }
   });
-
-  console.log('%cBye Bye Du removed ' + count + ' scripts.', 'color: #ffa500;');
+  if (count > 0) {
+    console.log('%cBye Bye Du removed ' + count + ' scripts.', 'color: #ffa500;');
+  }
 });
